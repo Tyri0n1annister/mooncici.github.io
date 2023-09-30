@@ -1,0 +1,91 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import 'main';
+
+//    FOLLOWING are all added myself
+
+// a {
+//   color: #224b8d;
+//   text-decoration: none;
+// }
+
+// set colors of links
+a:link {
+  color: #06307a; // Catalina Blue                      #041255; // Gulf Blue  
+  background-color: transparent;
+  text-decoration: none;
+//   font-weight: bold;
+}
+
+a:visited {
+  color: RoyalBlue; // #e66817; // #eb7b33; // #d46f2e; // #b34600; // #Ff6400; // Blaze Orange             #Ff8800; // Pizazz               
+  background-color: transparent;
+  text-decoration: none;
+//   font-weight: bold;
+}
+
+// mouse hanging
+a:hover {
+  color: #Ff8800; // Pizazz               #Ff9e00;  // orange peel
+  background-color: transparent;
+  text-decoration: underline;
+//   font-weight: bold;
+}
+
+// btw mouse click & release
+a:active {
+  color:  #Ff9e00;  // orange peel             #Ffb400; // Selective Yellow
+  background-color: transparent;
+  text-decoration: underline;
+//   font-weight: bold;
+}
+
+
+
+
+
+
+
+/* Style buttons */ 
+
+.block-highlight {
+  background-color:  #06307a; // Catalina Blue        DodgerBlue; /* Blue background */ #DCDCDC; /* Gainsboro background */
+  border: none; /* Remove borders */
+  border-radius: 4pt;       /* rounding border: large value, more rounded */
+  color: white; /* White text */
+  padding: 1px 3px;   // padding: top/bottom, left/right
+//   font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+ 
+
+#blocktype a:link {
+  background-color: #06307a; // Catalina Blue    DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  border-radius: 4pt;       /* rounding border */
+  color: white; /* White text */
+  padding: 1px 3px;   // padding: top/bottom, left/right
+  // font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on visited */
+#blocktype a:visited {
+  color: white;
+  background-color: RoyalBlue;  // #e66817; // RoyalBlue; 
+}
+
+// mouse hanging
+#blocktype a:hover { 
+  color: white;
+  background-color:  #Ff8800; // Pizazz               #Ff9e00;  // orange peel
+  text-decoration: underline;
+} 
+
+// btw mouse click & release
+#blocktype a:active {
+  color: white;
+  background-color:  #Ff9e00;  // orange peel             #Ffb400; // Selective Yellow 
+}
